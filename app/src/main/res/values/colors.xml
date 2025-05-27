@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF2196F3</color>
+    <!-- Ride status colors -->
+    <color name="ride_status_requested">#FF6200EE</color>
+    <color name="ride_status_driver_assigned">#FF03DAC5</color>
+    <color name="ride_status_en_route">#DBEBF8</color>
+    <color name="ride_status_arrived">#FFFF9800</color>
+    <color name="ride_status_in_progress">#FF3F51B5</color>
+    <color name="ride_status_completed">#FF4CAF50</color>
+
+</resources>

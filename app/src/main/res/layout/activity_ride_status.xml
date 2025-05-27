@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/ride_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ride status: None"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/animate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Animate" />
+
+        <Button
+            android:id="@+id/requested_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/ride_status_requested"
+            android:text="Requested" />
+
+        <Button
+            android:id="@+id/driver_assigned_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/ride_status_driver_assigned"
+            android:text="Driver Assigned" />
+
+        <Button
+            android:id="@+id/en_route_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue"
+            android:text="En Route" />
+
+        <Button
+            android:id="@+id/arrived_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/ride_status_arrived"
+            android:text="Arrived" />
+
+        <Button
+            android:id="@+id/in_progress_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/ride_status_in_progress"
+            android:text="In Progress" />
+
+        <Button
+            android:id="@+id/completed_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/ride_status_completed"
+            android:text="Completed" />
+
+    </LinearLayout>
+</ScrollView>

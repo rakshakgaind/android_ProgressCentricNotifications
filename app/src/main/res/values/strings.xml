@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProgressCentricNotifications</string>
+    <string name="notification_channel_title">Ride Updates</string>
+    <string name="notification_channel_description">Notifications for ride status updates</string>
+
+</resources>
